@@ -1,0 +1,65 @@
+package //package
+{
+	import com.cell.net.Long;
+	import com.cell.net.io.MessageFactory;
+	import com.cell.net.io.MutualMessage;
+	import com.cell.net.io.NetDataInput;
+	import com.cell.net.io.NetDataOutput;
+	import com.cell.net.io.NetDataTypes;
+	import com.cell.util.Map;
+
+	import flash.utils.getQualifiedClassName;	
+//import
+
+	/**
+	 * 此代码为自动生成。不需要在此修改。若有错误，请修改代码生成器。
+	 */
+	public class //className implements MessageFactory
+	{
+	
+		public function getVersion() : String{
+			return "//version";
+		}
+	
+		public function	getType(msg : Object) : int 
+		{
+			var cname : String = getQualifiedClassName(msg);
+			
+//getType
+			throw new Error("Object is not a MutualMessage : " + msg);
+		}
+		
+		public function	createMessage(type : int) : MutualMessage
+		{
+			switch(type)
+			{
+//createMessage
+			}
+			throw new Error("Can not create message : " + type);
+		}
+		
+		public function	readExternal(msg : MutualMessage,  input : NetDataInput) : void  
+		{
+			var type : int = getType(msg);
+			switch(type)
+			{
+//readExternal
+			}
+			throw new Error("Can not decode message : " + type + " : " + msg);
+		}
+		
+		public function	writeExternal(msg : MutualMessage, output : NetDataOutput) : void  
+		{
+			var type : int = getType(msg);
+			switch(type)
+			{
+//writeExternal
+			}
+			throw new Error("Can not encode message : " + type + " : " + msg);
+		}
+		
+//classes
+
+	}
+
+}

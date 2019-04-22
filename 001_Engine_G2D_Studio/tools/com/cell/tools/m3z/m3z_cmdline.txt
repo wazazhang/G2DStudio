@@ -1,0 +1,14 @@
+PVR4	= .\bin\PVRTexTool -fOGLPVRTC4 -p -pvrtciterations8 -yflip0 -i"<in_path>" -o"<dir>/<in_pre>.pvr" -> <dir>/<in_pre>.pvr
+PVR2	= .\bin\PVRTexTool -fOGLPVRTC2 -p -pvrtciterations8 -yflip0 -i"<in_path>" -o"<dir>/<in_pre>.pvr" -> <dir>/<in_pre>.pvr
+
+PVR1	= .\bin\PVRTexTool -fOGLPVRTC4 -p -pvrtciterations8 -yflip0 -i"<in_path>" -o"<dir>/<in_pre>.pvr" -> <dir>/<in_pre>.pvr
+PVRA	= .\bin\PVRTexTool -fOGLPVRTC4 -p -pvrtciterations8 -yflip0 -i"<in_path>" -o"<dir>/<in_pre>.pvr" -> <dir>/<in_pre>.pvr
+
+ATCE	= .\bin\Convert2ATITC "<in_path>" "<dir>/<in_pre>.dds" -> <dir>/<in_pre>.dds
+ATCI	= .\bin\Convert2ATITC "<in_path>" "<dir>/<in_pre>.dds" -> <dir>/<in_pre>.dds
+ATC3	= .\bin\Convert2ATITC "<in_path>" "<dir>/<in_pre>.dds" -> <dir>/<in_pre>.dds
+
+ETC1	= etcpack "<in_path>" "<dir>" -c etc1 -as -ktx -> <dir>/<in_pre>.ktx
+ETCA	= -> <dir>/<in_pre>_alpha.ktx
+
+RGBA	=

@@ -1,0 +1,31 @@
+package //package
+{
+	import flash.utils.ByteArray;
+	import com.cell.net.Long;
+	import com.cell.net.io.MutualMessage;
+	import com.cell.net.io.MessageFactory;
+	import com.cell.net.io.NetDataTypes;
+	import com.cell.util.Map;
+//import
+
+	/**
+	 * //classComment
+	 * Java Class [//classType] [//classFullName]<br>
+	 * 此代码为自动生成。不需要在此修改。若有错误，请修改代码生成器。
+	 */
+	public //dynamic class //className //extendsClass <IMPLEMENTS>implements MutualMessage</IMPLEMENTS>
+	{
+//fields
+
+<CONSTRUCT>
+//initComment
+		public function //className(//initArgs) 
+		{
+//initFields
+		}
+</CONSTRUCT>
+
+//asFunctions
+
+	}
+}

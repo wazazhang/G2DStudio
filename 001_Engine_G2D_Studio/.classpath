@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="cpj"/>
+	<classpathentry kind="src" path="item"/>
+	<classpathentry excluding="com/g2d/studio/gameedit/QuestItemTreeView.java|com/g2d/studio/gameedit/dynamic/DQuestItem.java" kind="src" path="gameedit"/>
+	<classpathentry excluding="com/g2d/studio/scene/swing/|com/g2d/studio/scene/FormSceneViewer.java|com/g2d/studio/scene/script/TriggerGenerateTreeNode.java|com/g2d/studio/scene/editor/SceneListCellEdit.java|com/g2d/studio/scene/script/" kind="src" path="scene"/>
+	<classpathentry kind="src" path="instancezone"/>
+	<classpathentry excluding="com/g2d/studio/quest/items/QuestItemManager.java" kind="src" path="quest"/>
+	<classpathentry kind="src" path="particles"/>
+	<classpathentry excluding="com/g2d/studio/rpg/AbilityTreeView.java|com/g2d/studio/anno/PropertyAdapter.java|com/g2d/editor/FormEditor.java|com/g2d/editor/UIComponentEditor.java" kind="src" path="studio"/>
+	<classpathentry kind="src" path="scripts"/>
+	<classpathentry kind="src" path="sample_plugin"/>
+	<classpathentry kind="src" path="tools"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/000_Engine_Core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/000_Engine_G2D">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="000_Engine_G2D/jni/blend_fnc/Release"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/jxl.jar" sourcepath="/000_Engine_Core/lib/jexcelapi_2_6_9_1.4/jexcelapi/src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/000_Engine_Sound"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/001_Engine_RPG"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/002_Engine_SQLProxy"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

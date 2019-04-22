@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ui"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/000_Engine_Core"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/000_Engine_G2D"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/000_Engine_Sound"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/001_Engine_G2D_Studio"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/001_Engine_RPG"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/002_Engine_SQLProxy"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
